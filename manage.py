@@ -2,8 +2,7 @@
 import os
 import sys
 
-#igs_admin
-#1234
+
 
 def main():
     """Run administrative tasks."""

@@ -11,7 +11,7 @@ route = routers.DefaultRouter()
 
 route.register(r'departments', coreviews.DepartmentsViewSet, basename='departments')
 
-route.register(r'employees', coreviews.DepartmentsViewSet, basename='employees')
+route.register(r'employees', coreviews.EmployeesViewSet, basename='employees')
 
 
 
