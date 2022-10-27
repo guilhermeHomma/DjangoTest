@@ -8,4 +8,4 @@ class DepartmentsViewSet(viewsets.ModelViewSet):
 
 class EmployeesViewSet(viewsets.ModelViewSet):
     serializer_class = serializer.EmployeesSerializer
-    queryset = models.Departments.objects.all()
+    queryset = models.Employees.objects.all()
