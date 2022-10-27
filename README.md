@@ -31,3 +31,19 @@ login: igs_admin
 password: 1234
 
 ```
+
+<br>
+to list/add/delete department
+
+```
+http://127.0.0.1:8000/api/departments
+
+```
+
+<br>
+to list/add/delete employee
+
+```
+http://127.0.0.1:8000/api/employees
+
+```
