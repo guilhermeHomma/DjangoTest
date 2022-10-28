@@ -20,5 +20,4 @@ urlpatterns = [
 
     path('api/', include(route.urls)),
     path('', views.index),
-    path('godot', views.godot),
 ]

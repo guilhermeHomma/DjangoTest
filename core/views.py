@@ -9,7 +9,3 @@ def index(request):
         'table': list
     }
     return render(request, 'index.html', context)
-
-
-def godot(request):
-    return render(request, 'godot.html')
