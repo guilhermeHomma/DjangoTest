@@ -16,9 +16,9 @@ route.register(r'departments', coreviews.DepartmentsViewSet, basename='departmen
 route.register(r'employees', coreviews.EmployeesViewSet, basename='employees')
 
 
-
 urlpatterns = [
 
-    path('root/', include(route.urls)),
-    path('', views.index)
+    path('api/', include(route.urls)),
+    path('', views.index),
+    path('godot', views.godot),
 ]
